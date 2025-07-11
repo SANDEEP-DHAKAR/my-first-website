@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Assignment product card</title>
+  <style>
+    body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: #d9678b;
+      padding: 100px;
+      width: 50%;
+    }
+
+    .product-card {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      background-color: #6223c1;
+      border-radius: 20px;
+      box-shadow: 30px 40px 40px rgba(10, 185, 7, 0.603);
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      width: 1000px;
+      height: 300px;
+
+    }
+
+    .product-card img {
+      width: 300px;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    .product-info {
+      flex: 1;
+    }
+
+    .product-info h2 {
+      color: #0071e3;
+      margin-bottom: 5px;
+    }
+
+    .product-info p {
+      margin: 5px 0;
+    }
+
+    .product-info ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    .product-info ul li {
+      margin-bottom: 6px;
+    }
+
+    .price {
+      margin-top: 10px;
+    }
+
+    .price strong {
+      font-size: 1.2em;
+    }
+
+    .price span {
+      font-size: 0.9em;
+      margin-left: 8px;
+    }
+
+    .discount {
+      color: green;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .offer {
+      color: rgb(227, 19, 47);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="product-card">
+    <img src="mobile phone image.webp" alt="Nothing Phone (3a) Blue 256 GB" width="200" />
+
+    <div class="product-info">
+      <h2>Nothing Phone (3a) (Blue, 256 GB)</h2>
+      <p><strong>Rating:</strong> ⭐ 4.5 (22,938 Ratings & 2,128 Reviews)</p>
+      <ul>
+        <li>8 GB RAM | 256 GB ROM</li>
+        <li>43.66 cm (17.19 cm) Full HD+ Display</li>
+        <li>50MP (Main) + 50MP (2X Tele Photo) + 8MP (Ultra-Wide) | 32MP Front Camera</li>
+        <li>5000 mAh Battery</li>
+        <li>7s Gen3 Processor</li>
+        <li>1 Year Manufacturing Warranty</li>
+      </ul>
+
+      <div class="price">
+        <p><strong>Price:</strong> ₹26,999 <span style="text-decoration: line-through;">₹29,999</span> 
+          <span style="color: green;">(10% off)</span></p>
+        <p>Upto <strong>₹20,300</strong> Off on Exchange</p>
+        <p style="color: green;">Bank Offer</p>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
