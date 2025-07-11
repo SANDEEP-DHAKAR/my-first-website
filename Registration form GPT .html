@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .form-container {
+      border: 5px solid black;
+      padding: 10px;
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .form-header {
+      text-align: center;
+      font-weight: bold;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .form-group {
+      margin: 5px 10px;
+    }
+    label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    input[type="text"],
+    input[type="checkbox"] {
+      padding: 5px;
+      width: 200px;
+    }
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .office-use {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <div class="form-header">REGISTRATION FORM</div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Form No.</label>
+      <input type="text">
+    </div>
+    <div class="office-use">OFFICE USE ONLY</div>
+    <div class="form-group">
+      <label>For Session</label>
+      <input type="text">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group checkbox-group">
+      <input type="checkbox">
+      <label>पंजीकरण संख्या<br>Registration Number</label>
+    </div>
+    <div class="form-group checkbox-group">
+      <input type="checkbox">
+      <label>प्रवेश स्वीकृति दिनांक<br>Admission Confirm Dt</label>
+    </div>
+    <div class="form-group checkbox-group">
+      <input type="checkbox">
+      <label>विद्यार्थी पंजीयन सं.<br>SR No.</label>
+    </div>
+    <div class="form-group">
+      <label>प्रवेश की कक्षा<br>Admn. Class</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>विषय क्षेत्र<br>Subject Stream / Group</label>
+      <input type="text">
+    </div>
+    <div class="form-group checkbox-group">
+      <input type="checkbox">
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
