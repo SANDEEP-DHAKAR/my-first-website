@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        
+    </head>
+    
+    <body class="container-fluid">
+        <h2 class="ms-5 mt-4">Sandeep image</h2>
+        <div class="d-wrap d-flex">
+            <div class="card p-3 mt-1 ms-4 me-5" style="width: 300px;">
+                <img class="card-img-top" src="sandeep1.jpg" height="200">
+                <div class="card-header">
+                    <h2 class="card-title">Winter Jacket</h2>
+                    <p class="card-subtitle">50% Off on selected</p>
+                </div>
+                
+                <div class="card-body">
+                    <dl>
+                        <dt>Price</dt>
+                        <dd>5600.55</dd>
+                        <dt>Stock</dt>
+                        <dd>Available</dd>
+                    </dl>
+                    <a class="card-link" href="#">more & more.</a>
+                </div>
+                <br>
+                <div class="card-footer">
+                    <button class="btn btn-danger w-100">
+                      <span class="bi bi-cart4"></span> Add to Cart
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="card p-3 m-1" style="width:300px;">
+               
+                <div class="card-header">
+                    <h2 class="card-title">Sandeep image</h2>
+                    <p class="card-subtitle">50% Off on selected</p>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="sandeep3.jpg" height="200">
+                    <br>
+                    <br>
+                    <dl>
+                        <dt>Price</dt>
+                        <dd>5600.55</dd>
+                        <dt>Stock</dt>
+                        <dd>Available</dd>
+                    </dl>
+                    <a class="card-link" href="#">more & more</a>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-danger   w-100">
+                      <span class="bi bi-cart4"></span> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
+
