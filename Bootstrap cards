@@ -5,8 +5,7 @@
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
         
-    </head>
-    
+    </head>  
     <body class="container-fluid">
         <h2 class="ms-5 mt-4">Sandeep image</h2>
         <div class="d-wrap d-flex">
@@ -15,7 +14,7 @@
                 <div class="card-header">
                     <h2 class="card-title">Winter Jacket</h2>
                     <p class="card-subtitle">50% Off on selected</p>
-                    
+
                 </div>
                 
                 <div class="card-body">
